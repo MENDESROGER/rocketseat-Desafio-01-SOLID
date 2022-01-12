@@ -1,0 +1,20 @@
+{
+    "openapi": "3.0.0",
+    "info":{
+        "title": "RentalX Documentation",
+        "description": "This is an API Rent",
+        "version": "1.0.0",
+        "contact":{
+            "email": "roger_mendes@hotmail.com"
+        }
+    },
+    "paths":{
+        "users":{
+            "post":{
+                "tags": ["user"],
+                "summary": "cria um novo usuário",
+                "description": "Create a new category"
+            }
+        }
+    }
+}
